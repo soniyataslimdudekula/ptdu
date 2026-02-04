@@ -27,7 +27,7 @@ PTDU is a graphical disk usage analyzer built with Python and Tkinter, inspired 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/cosmez/ptdu.git
 cd ptdu
 
 # Install in editable mode
