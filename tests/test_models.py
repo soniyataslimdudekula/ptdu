@@ -157,6 +157,11 @@ class TestDirNode:
         """Test that files have zero item count."""
         file_node = DirNode(path=Path("/file.txt"), name="file.txt", is_dir=False)
         assert file_node.get_item_count() == 0
+         def test_file_get_item_count(self) -> None:
+        """Test that files have zero item count."""
+        file_node = DirNode(path=Path("/file.txt"), name="file.txt", is_dir=False)
+        assert file_node.get_item_count() == 0
+
 
     def test_repr(self) -> None:
         """Test string representation."""
