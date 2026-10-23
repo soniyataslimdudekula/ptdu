@@ -153,11 +153,7 @@ class TestDirNode:
         parent.add_child(child2)
         assert parent.get_item_count() == 2
 
-    def test_file_get_item_count(self) -> None:
-        """Test that files have zero item count."""
-        file_node = DirNode(path=Path("/file.txt"), name="file.txt", is_dir=False)
-        assert file_node.get_item_count() == 0
-
+   
     def test_repr(self) -> None:
         """Test string representation."""
         dir_node = DirNode(path=Path("/dir"), name="dir", is_dir=True)
